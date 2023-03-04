@@ -1,0 +1,10 @@
+.section {
+  margin: 100px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: rgba(180, 215, 242, 0.5);
+  box-shadow: 0px 0px 8px 0px #33333347;
+}

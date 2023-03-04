@@ -1,0 +1,13 @@
+.contactItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .bthListItem {
+    margin-left: 20px;
+    height: 20px;
+    color: rgb(228, 84, 116);
+    border: 1px solid rgb(86, 86, 237);
+    border-radius: 5px;
+  }
