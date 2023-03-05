@@ -41,27 +41,23 @@ const contactsSlice = createSlice({
     },
     [deleteContact.rejected]: handleRejected,
   },
-
-
 });
-
 
 export const contactsReducer = contactsSlice.reducer;
 
 // reducers: {
-  //   addContact(state, action) {
-  //     state.contacts.push(action.payload);
-  //   },
-  //   deleteContact(state, action) {
-  //     return {
-  //       contacts: state.contacts.filter(
-  //         contact => contact.id !== action.payload
-  //       ),
-  //     };
-  //   },
-  // export const { addContact, deleteContact } = contactsSlice.actions;
+//   addContact(state, action) {
+//     state.contacts.push(action.payload);
+//   },
+//   deleteContact(state, action) {
+//     return {
+//       contacts: state.contacts.filter(
+//         contact => contact.id !== action.payload
+//       ),
+//     };
+//   },
+// export const { addContact, deleteContact } = contactsSlice.actions;
 
- 
 //========localStorage=========
 // import { persistReducer } from 'redux-persist';
 // import storage from 'redux-persist/lib/storage';

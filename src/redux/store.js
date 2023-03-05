@@ -10,10 +10,6 @@ export const store = configureStore({
   },
 });
 
-
-
-
-
 //========localStorage=========
 // import { persistStore } from 'redux-persist';
 // import {

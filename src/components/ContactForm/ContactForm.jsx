@@ -54,8 +54,6 @@ export const ContactForm = () => {
     addNewContact({ name, number });
     reset();
   };
-  
-
 
   return (
     <form onSubmit={handleSubmit} className={css.contactForm}>
