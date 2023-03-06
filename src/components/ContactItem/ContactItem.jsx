@@ -7,7 +7,7 @@ export const ContactItem = ({ name, number, id }) => {
   const deleteContactId = () => dispatch(deleteContact(id));
   return (
     <>
-      <li className={css.contactItem}>
+      <li key={id} className={css.contactItem}>
         <p>
           {name}: {number}
         </p>
